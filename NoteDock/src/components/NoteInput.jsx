@@ -39,7 +39,7 @@ const NoteInput = () => {
                 transition={{ duration: 0.1 }}
                 name="note"
                 id="note"
-                className=" w-full mx-2 mx-auto block rounded-lg h-[100px] p-2 bg-gray-100 border-2 border-gray-300"
+                className=" w-full mx-2 block rounded-lg h-[100px] md:h-[200px] p-2 bg-gray-100 border-2 border-gray-300"
                 placeholder="Type your thoughts..."
                 value={note}
                 onChange={(e) => setNote(e.target.value)}
@@ -60,7 +60,7 @@ const NoteInput = () => {
                   whileTap={{ scale: 0.8 }}
                   transition={{ duration: 0.1 }}
                   type="submit"
-                  className="text-black bg-blue-500 border-blue-500 border-2 text-white text-sm px-4 py-2 rounded-lg font-medium tracking-wide"
+                  className=" bg-blue-500 border-blue-500 border-2 text-white text-sm px-4 py-2 rounded-lg font-medium tracking-wide"
                   onClick={() => handleAddNote()}
                 >
                   Save note
