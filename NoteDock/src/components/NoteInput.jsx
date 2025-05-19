@@ -39,7 +39,7 @@ const NoteInput = () => {
                 transition={{ duration: 0.1 }}
                 name="note"
                 id="note"
-                className=" w-full mx-2 mx-auto block rounded-lg h-[200px] p-2 bg-gray-100 border-2 border-gray-300"
+                className=" w-full mx-2 mx-auto block rounded-lg h-[100px] p-2 bg-gray-100 border-2 border-gray-300"
                 placeholder="Type your thoughts..."
                 value={note}
                 onChange={(e) => setNote(e.target.value)}
