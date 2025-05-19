@@ -60,7 +60,7 @@ A feature-rich note-taking app built with **React**, **Context API**, and **useR
 ```bash
 git clone https://github.com/harsh-goyal-004/notedock.git
 
-cd react-mastery-30
+cd NoteDock
 npm install
 npm run dev
 
