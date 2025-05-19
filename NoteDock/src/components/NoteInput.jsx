@@ -60,7 +60,7 @@ const NoteInput = () => {
                   whileTap={{ scale: 0.8 }}
                   transition={{ duration: 0.1 }}
                   type="submit"
-                  className="text-black bg-blue-500 border-blue-500 bg-white border-2 text-white text-sm px-4 py-2 rounded-lg font-medium tracking-wide"
+                  className="text-black bg-blue-500 border-blue-500 border-2 text-white text-sm px-4 py-2 rounded-lg font-medium tracking-wide"
                   onClick={() => handleAddNote()}
                 >
                   Save note
